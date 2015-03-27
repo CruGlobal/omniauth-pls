@@ -1,5 +1,5 @@
 module OmniAuth
-  module PLS
+  module Pls
     VERSION = '0.0.1'
   end
 end

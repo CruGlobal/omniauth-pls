@@ -14,7 +14,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   gem.name          = "omniauth-pls"
   gem.require_paths = ["lib"]
-  gem.version       = OmniAuth::PLS::VERSION
+  gem.version       = OmniAuth::Pls::VERSION
 
   gem.add_runtime_dependency 'omniauth-oauth2'
   gem.add_runtime_dependency 'multi_json'

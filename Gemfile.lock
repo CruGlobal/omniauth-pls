@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    omniauth-pls (0.0.3)
+    omniauth-pls (0.0.1)
       multi_json
       omniauth-oauth2
 
@@ -9,11 +9,11 @@ GEM
   remote: https://rubygems.org/
   specs:
     diff-lcs (1.2.5)
-    faraday (0.9.0)
+    faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
-    hashie (3.3.1)
-    jwt (1.0.0)
-    multi_json (1.10.1)
+    hashie (3.4.0)
+    jwt (1.4.1)
+    multi_json (1.11.0)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
     oauth2 (1.0.0)
@@ -30,7 +30,7 @@ GEM
       multi_json (~> 1.3)
       oauth2 (~> 1.0)
       omniauth (~> 1.2)
-    rack (1.5.2)
+    rack (1.6.0)
     rake (10.3.2)
     rspec (3.1.0)
       rspec-core (~> 3.1.0)

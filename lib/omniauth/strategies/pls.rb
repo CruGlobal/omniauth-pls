@@ -3,7 +3,7 @@ require 'multi_json'
 
 module OmniAuth
   module Strategies
-    class PLS < OmniAuth::Strategies::OAuth2
+    class Pls < OmniAuth::Strategies::OAuth2
       option :name, 'pls'
 
       option :client_options, {

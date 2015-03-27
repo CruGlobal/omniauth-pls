@@ -1,9 +1,9 @@
 require 'spec_helper'
 require 'omniauth-pls'
 
-describe OmniAuth::Strategies::PLS do
+describe OmniAuth::Strategies::Pls do
   let(:app) { lambda { [200, {}, ["Hello."]] } }
-  let(:subject) { OmniAuth::Strategies::PLS.new(app, 'test_client_id', 'test_client_secret', @options) }
+  let(:subject) { OmniAuth::Strategies::Pls.new(app, 'test_client_id', 'test_client_secret', @options) }
 
   before do
     OmniAuth.config.test_mode = true
